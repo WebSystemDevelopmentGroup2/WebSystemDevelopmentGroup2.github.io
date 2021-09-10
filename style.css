@@ -390,6 +390,98 @@ a.squiggle:hover {
     }
 }
 
+#arthi-body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: DarkGray; 
+    
+}
+
+#arthi-content {
+    margin: 0 auto;
+    padding: 3em 2em;
+    max-width: 576px;
+    background-color: White; 
+}
+
+
+#arthi-h1 {
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+}
+
+#arthi-h2 {
+    float: center;
+    clear: left;
+    width: 150px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-style: italic;
+    white-space: nowrap;
+    line-height: 0.5;
+}
+
+#arthi-h2-2 {
+    float: center;
+    clear: left;
+    width: 150px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-style: italic;
+    white-space: nowrap;
+    line-height: 0.5;
+}
+
+#arthi-contactInfo {
+    border-top: 2px solid #00008B;
+    border-bottom: 2px solid #00008B;
+    padding: 4px 0  4px 0;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+#arthi-contactInfo li {
+    display: inline;
+    list-style: none;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#arthi-eduInfo li {
+    display: inline;
+    list-style: none;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#arthi-workInfo li{
+    list-style-type: square;
+}
+
+#arthi-subList li{
+    list-style-type: circle;
+}
+
+#arthi-p {
+    text-indent: 0px;
+   }
+
+.arthi-dates {
+    float: right;
+    clear: right;
+}
+
+.arthi-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .woodsc5h1{
     font-variant: small-caps;
     padding-top: 25px;
