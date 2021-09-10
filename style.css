@@ -157,7 +157,7 @@ html {
     background-attachment: scroll;
 }
 
-a:active {
+#eryn-body a:active {
     color: rgb(230, 230, 230);
     background-color: transparent;
 }
@@ -251,7 +251,7 @@ body::-webkit-scrollbar-thumb {
     bottom: 16px;
 } 
 
-a:hover {
+#eryn-body a:hover {
     color: red;
     background-color: transparent;
     /*text-decoration: underline;*/
@@ -282,7 +282,7 @@ a:hover {
 }
 
 
-a:link {
+#eryn-body a:link {
     color: rgb(230, 230, 230);
     background-color: transparent;
     text-decoration: none;
