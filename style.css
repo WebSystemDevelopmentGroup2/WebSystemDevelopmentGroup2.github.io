@@ -1,0 +1,137 @@
+/* GROUP PAGE PART */
+
+
+/* Applies a background and makes sure no margin around top bar */
+#group-body {
+    background-color:#eff7d5;
+    margin: 0;
+}
+
+/* Creates header at the top with bg color*/
+.header {
+    background-color:#c1cc9c;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    width: auto;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+/* Styles individual image */
+.works-image {
+    height: 350px;
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+/* Make sure no bullets are shown, width is given properly, and a specific font is chosen */
+#works-list {
+    list-style: none;
+    width: auto;
+    font-family: 'Courier New';
+}
+
+/* Makes this list horizontal rather than vertical and spaces it properly */
+#works-list li {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#works-list li p {
+    text-align: center;
+}
+
+/* Space each member's photo and link properly */
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24%;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Formatting name of each member (link to their portfolio) */
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Courier New';
+    background-color:#ffffff;
+}
+
+/* Formatting logo image */
+#logo {
+    height: 100px;
+}
+
+
+/* RESUME PAGE PART */
+
+
+/* Content container which centers the resume. This also applies a neat animation on load. */
+.reed-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    animation-name: reed-appear;
+    animation-duration: 1s;
+}
+
+.reed-center-text {
+    text-align: center;
+}
+
+/* Puts my photo to right side and makes it smaller. Also has an animation on load that's a bit longer than content. */
+#reed-photo {
+    width: 200px;
+    float: right;
+    animation-name: reed-appear;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+/* Name and lists below are to reduce whitespace */
+.reed-school-name {
+    margin: 0;
+    padding: 0;
+}
+
+.reed-school-list {
+    margin-top: 0;
+}
+
+.reed-business-name {
+    margin: 0;
+    padding: 0;
+}
+
+.reed-business-list {
+    margin-top: 0;
+}
+
+.reed-skills-list {
+    margin-top: 0;
+}
+
+/* Shhhh don't tell anyone */
+#reed-hidden-message {
+    visibility: hidden;
+}
+
+/* Animation to make it seem like whatever content fades in */
+@keyframes reed-appear {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
