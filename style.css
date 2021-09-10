@@ -389,3 +389,81 @@ a.squiggle:hover {
         background-position: 0 50%;
     }
 }
+
+.woodsc5h1{
+    font-variant: small-caps;
+    padding-top: 25px;
+    text-align:center;
+    border-bottom: 5px solid black;
+}
+#woodsc5contactInfo{
+    padding: 4px 0 4px 0;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+#woodsc5contactInfo li{
+    font-size: 1.5em;
+    display: inline;
+    list-style: none;
+    margin: 0 .30em 0 .30em;
+}
+.woodsc5h2 {
+    text-align:center;
+    font-variant-caps: small-caps;
+    font-size: 1.7em;
+}
+#woodsc5objective{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.woodsc5information{
+    padding: 20px 0 4px 0;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.7em;
+    font-variant-caps: small-caps;
+    border-bottom: 2px solid black;
+}
+.woodsc5information2 li{
+    font-size: 1.5em;
+    font-variant-caps: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 .30em 0;
+}
+
+.woodsc5listL{
+    float:left;
+    font-size: 1.5em;
+    width:300px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.woodsc5listR{
+    float:right;
+    width:300px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.woodsc5listM{
+    margin: auto;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    padding: 10px;
+    width: 30%;
+}
+.woodsc5img{
+    float: right;
+    width:350px;
+    height:250px;
+    padding: 20px 0 40px 0;
+}
