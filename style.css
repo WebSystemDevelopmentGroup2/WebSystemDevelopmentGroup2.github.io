@@ -137,7 +137,7 @@
 }
 
 /* ERYN RESUME PAGE PART */
-html {
+#eryn-html {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
@@ -367,7 +367,7 @@ a.squiggle:hover {
     width: 150px;
 }
 
-.vcard {
+#contact {
     text-align: right;
     width: 15%;
     float: right;
